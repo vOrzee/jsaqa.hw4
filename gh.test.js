@@ -16,7 +16,7 @@ describe("Github page tests", () => {
         await page.waitForSelector("h1");
         const title2 = await page.title();
         expect(title2).toEqual(
-            "GitHub: Where the world builds software · GitHub",
+            "GitHub · Build and ship software on a single, collaborative platform · GitHub",
         );
     });
 
@@ -28,7 +28,7 @@ describe("Github page tests", () => {
     });
 
     test("The page contains Sign in button", async () => {
-        const btnSelector = ".btn-large-mktg.btn-mktg";
+        const btnSelector = ".btn-large-mktg.btn-mktg.btn-muted-mktg";
         await page.waitForSelector(btnSelector, {
             visible: true,
         });
