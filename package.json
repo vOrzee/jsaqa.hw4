@@ -1,0 +1,32 @@
+{
+    "name": "jsaqa_3_3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vOrzee/jsaqa.hw4.git"
+    },
+    "author": "Roman Leshin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vOrzee/jsaqa.hw4/issues"
+    },
+    "homepage": "https://github.com/vOrzee/jsaqa.hw4#readme",
+    "dependencies": {
+      "jest": "^27.3.1",
+      "jest-puppeteer": "^6.0.0",
+      "puppeteer": "^13.3.2"
+    },
+    "devDependencies": {
+      "eslint": "^9.23.0",
+      "@eslint/js": "^9.23.0",
+      "eslint-config-prettier": "^10.1.1",
+      "eslint-plugin-prettier": "^5.2.5",
+      "prettier": "^3.5.3",
+      "globals": "^16.0.0"
+    }
+}
