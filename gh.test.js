@@ -13,7 +13,7 @@ describe("Github page tests", () => {
     test("The h1 header content'", async () => {
         const firstLink = await page.$("header div div a");
         await firstLink.click();
-        await page.waitForSelector("h1", { timeot: 10000 });
+        await page.waitForSelector("h1", { timeout: 10000 });
         const title2 = await page.title();
         expect(title2).toEqual(
             "GitHub · Build and ship software on a single, collaborative platform · GitHub",
